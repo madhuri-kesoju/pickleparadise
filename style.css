@@ -1,0 +1,144 @@
+/* Reset default styles */
+html, body, h1, h2, h3, p, ul, li {
+    margin: 20px;
+    padding: 10px;
+  }
+  
+  body {
+    font-family: Cambria;
+    line-height: 1.3rem;
+    color: #090909;
+
+  }
+  
+  header {
+    padding: 20px;
+    background-image: url('colour (1).jpg');
+    background-size: cover;
+    background-position: center;
+    height:auto;;
+    width: auto;;  
+  }
+  
+  header h1 {
+    color: #f7910a;
+    font-size: 40px;
+    font-family: 'Lucida Sans';
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul {
+    list-style:none;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration:underline;
+    color: #111111;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .hero {
+    background-image: url('paradise pi.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #090909;
+    text-align: center;
+    padding: 100px;
+  }
+  
+  .hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    background-color: #b9b0a3;
+    color: #101210;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .cta-button:hover {
+    background-color: #ece7e2;
+  }
+  
+  .about-us {
+    padding: 40px 0;
+  }
+  
+  .about-us h2 {
+    margin-bottom: 20px;
+  }
+  
+  .our-pickles {
+    padding: 40px 0;
+  }
+  
+  .our-pickles h2 {
+    margin-bottom: 20px;
+  }
+  
+  .our-pickles .product {
+    max-width: 300px;
+    margin: 0 auto 40px;
+  }
+  
+  .our-pickles .product img {
+    max-width: 100%;
+    border-radius: 5px;
+  }
+  
+  .our-pickles .product h3 {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+  
+  .our-pickles .product p {
+    font-size: 16px;
+  }
+  
+  .contact-us p{
+    font-size: 18px;
+  }
+
+  .contact-us h2 {
+    margin-bottom: 20px;
+    font-family: Cambria;
+  }
+  .social-links{
+    font-size: 3rem;
+  }
+  
+  footer {
+    background-color: #080808;
+    color: #bfbfc6;
+    text-align: center;
+    padding: 10px;
+  }
+  
